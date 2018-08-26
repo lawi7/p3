@@ -68,6 +68,6 @@ Vagrant.configure("2") do |config|
   #   apt-get install -y apache2
   # SHELL
   config.vm.provision "ansible_local" do |a|
-	  a.playbook = "setup.yml"
+	  a.playbook = "setup-rf.yml"
   end
 end
